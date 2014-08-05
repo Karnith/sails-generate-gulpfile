@@ -1,18 +1,18 @@
 /**
- * Gruntfile
+ * Gulpfile
  *
- * This Node script is executed when you run `grunt` or `sails lift`.
- * It's purpose is to load the Grunt tasks in your project's `tasks`
+ * This Node script is executed when you run `gulp` or `sails lift`.
+ * It's purpose is to load the Gulp tasks in your project's `tasks`
  * folder, and allow you to add and remove tasks as you see fit.
  * For more information on how this works, check out the `README.md`
- * file that was generated in your `tasks` folder.
+ * file that was generated in your `tasks` folder. Module gulp-load-plugins is now needed.
  *
  * WARNING:
  * Unless you know what you're doing, you shouldn't change this file.
  * Check out the `tasks` directory instead.
  */
 
-module.exports = function(grunt) {
+module.exports = function(gulp) {
 
 
 	// Load the include-all library in order to require all of our grunt
@@ -31,17 +31,17 @@ module.exports = function(grunt) {
 			console.error('npm install include-all --save`');
 			console.error();
 
-			grunt.registerTask('default', []);
+			gulp.task('default', []);
 			return;
 		}
 	}
 
 
 	/**
-	 * Loads Grunt configuration modules from the specified
+	 * Loads Gulp configuration modules from the specified
 	 * relative path. These modules should export a function
 	 * that, when run, should either load/configure or register
-	 * a Grunt task.
+	 * a Gulp task.
 	 */
 	function loadTasks(relPath) {
 		return includeAll({
@@ -57,7 +57,7 @@ module.exports = function(grunt) {
 	function invokeConfigFn(tasks) {
 		for (var taskName in tasks) {
 			if (tasks.hasOwnProperty(taskName)) {
-				tasks[taskName](grunt);
+				tasks[taskName](gulp, plugins, path);
 			}
 		}
 	}
@@ -71,10 +71,10 @@ module.exports = function(grunt) {
 
 	// (ensure that a default task exists)
 	if (!registerDefinitions.default) {
-		registerDefinitions.default = function (grunt) { grunt.registerTask('default', []); };
+		registerDefinitions.default = function (grunt) { grunt.task('default', []); };
 	}
 
-	// Run task functions to configure Grunt.
+	// Run task functions to configure Gulp.
 	invokeConfigFn(taskConfigurations);
 	invokeConfigFn(registerDefinitions);
 
