@@ -1,9 +1,9 @@
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
 
-# sails-generate-gruntfile
+# sails-generate-gulpfile (in development)
 
 
-A `gruntfile` generator for use with the Sails command-line interface.
+A `gulpfile` generator for use with the Sails command-line interface.
 
 
 ### Installation
@@ -12,7 +12,7 @@ Certain generators are installed by default in Sails, but they can be overridden
 
 <!--
 ```sh
-$ npm install sails-generate-gruntfile
+$ npm install sails-generate-gulpfile
 ```
 -->
 
@@ -22,7 +22,7 @@ $ npm install sails-generate-gruntfile
 ##### On the command line
 
 ```sh
-$ sails generate gruntfile
+$ sails generate gulpfile
 ```
 
 ##### In a node script
@@ -33,7 +33,7 @@ var sailsgen = require('sails-generate');
 var scope = {
 	rootPath: path.resolve(__dirname)
 };
-sailsgen(require('sails-generate-gruntfile'), scope, function (err) {
+sailsgen(require('sails-generate-gulpfile'), scope, function (err) {
 	if (err) throw err;
 
 	// It worked.
@@ -46,7 +46,7 @@ sailsgen(require('sails-generate-gruntfile'), scope, function (err) {
 To get started quickly and see this generator in action, run the `bin/index.js` script:
 
 ```sh
-$ git clone YOUR_FORK_OF_THIS_REPO sails-generate-gruntfile-fork
+$ git clone YOUR_FORK_OF_THIS_REPO sails-generate-gulpfile-fork
 $ cd sails-generate-gruntfile-fork
 $ npm install
 $ node ./bin
