@@ -1,13 +1,13 @@
 {
-  "name": "sails-generate-gruntfile",
+  "name": "sails-generate-gulpfile",
   "version": "0.10.10",
-  "description": "Generate a gruntfile for Sails.",
+  "description": "Generate a gulpfile for Sails.",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha"
   },
   "keywords": [
-    "gruntfile",
+    "gulpfile",
     "generator",
     "sails",
     "generate",
@@ -26,7 +26,7 @@
   },
   "sailsGenerator": {
     "type": "gruntfile",
-    "behavior": "overrides `sails generate gruntfile`",
+    "behavior": "overrides `sails generate gulpfile`",
     "sailsVersion": "~0.10.0"
   }
 }
