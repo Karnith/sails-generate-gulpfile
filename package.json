@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-gulpfile",
-  "version": "0.10.10",
+  "version": "0.0.1",
   "description": "Generate a gulpfile for Sails.",
   "main": "lib/index.js",
   "scripts": {
