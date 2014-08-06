@@ -11,8 +11,11 @@
  * Unless you know what you're doing, you shouldn't change this file.
  * Check out the `tasks` directory instead.
  */
+var gulp = require('gulp'),
+	plugins = require('gulp-load-plugins')(),
+	path = require('path');
 
-module.exports = function(gulp) {
+//module.exports = function(gulp) {
 
 
 	// Load the include-all library in order to require all of our grunt
@@ -78,4 +81,4 @@ module.exports = function(gulp) {
 	invokeConfigFn(taskConfigurations);
 	invokeConfigFn(registerDefinitions);
 
-};
+//};
