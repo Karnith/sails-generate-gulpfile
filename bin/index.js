@@ -17,10 +17,10 @@ var sailsgen = require('sails-generate')
 require('fs-extra').mkdirp(path.resolve(process.cwd(), 'generated'));
 
 var scope = {
-	generatorType: 'gruntfile',
+	generatorType: 'gulpfile',
 	rootPath: path.resolve(process.cwd(), 'generated'),
 	modules: {
-		'gruntfile': path.resolve(__dirname, '../lib')
+		'gulpfile': path.resolve(__dirname, '../lib')
 	},
 
 	// For the NEW generator we're generating:
