@@ -1,20 +1,22 @@
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
 
-# sails-generate-gulpfile (in development)
+# sails-generate-gulpfile
 
 
-A `gulpfile` generator for use with the Sails command-line interface.
+A `gulpfile` generator for use with the Sails command-line interface that works with sails lift.
 
 
 ### Installation
 
 Certain generators are installed by default in Sails, but they can be overridden.  Check the [Sails docs](http://sailsjs.org/#!documentation) for information on installing generator overrides / custom generators.
 
-<!--
 ```sh
-$ npm install sails-generate-gulpfile
+$ npm install -g sails-generate-backend-gulp
+$ npm install -g sails-generate-gulpfile
+$ npm install -g sails-generate-frontend-gulp
+$ npm install -g sails-generate-new-gulp
+
 ```
--->
 
 
 ### Production Usage
