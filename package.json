@@ -20,12 +20,12 @@
     "merge-defaults": ">=0.1.0"
   },
   "devDependencies": {
-    "sails-generate": "*",
+    "sails-generate": "git://github.com/Karnith/sails-generate.git",
     "reportback": "*",
     "fs-extra": "~0.8.1"
   },
   "sailsGenerator": {
-    "type": "gruntfile",
+    "type": "gulpfile",
     "behavior": "overrides `sails generate gulpfile`",
     "sailsVersion": "~0.10.0"
   }
