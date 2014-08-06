@@ -13,7 +13,7 @@
     "generate",
     "plugin"
   ],
-  "author": "balderdashy",
+  "author": "karnith",
   "license": "MIT",
   "dependencies": {
     "lodash": ">=2.4.x",
