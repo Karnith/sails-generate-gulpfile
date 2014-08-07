@@ -24,6 +24,13 @@
     "reportback": "*",
     "fs-extra": "~0.8.1"
   },
+    "repository": {
+    "type": "git",
+    "url": "git://github.com/Karnith/sails-generate-gulpfile"
+  },
+  "bugs": {
+    "url": "https://github.com/Karnith/sails-generate-gulpfile/issues"
+  },
   "sailsGenerator": {
     "type": "gulpfile",
     "behavior": "overrides `sails generate gulpfile`",
