@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-gulpfile",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate a gulpfile for Sails.",
   "main": "lib/index.js",
   "scripts": {
@@ -11,7 +11,8 @@
     "generator",
     "sails",
     "generate",
-    "plugin"
+    "plugin",
+    "gulp"
   ],
   "author": "karnith",
   "license": "MIT",
@@ -24,7 +25,7 @@
     "reportback": "*",
     "fs-extra": "~0.8.1"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git://github.com/Karnith/sails-generate-gulpfile"
   },
