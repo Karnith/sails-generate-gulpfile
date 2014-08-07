@@ -3,7 +3,7 @@
 # sails-generate-gulpfile
 
 
-A `gulpfile` generator for use with the Sails command-line interface that works with sails lift.
+A `gulpfile` generator for use with the Sails command-line interface that works with gulp and sails lift.
 
 
 ### Installation
