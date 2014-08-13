@@ -58,6 +58,25 @@ sailsgen(require('sails-generate-gulpfile'), scope, function (err) {
 });
 ```
 
+### Gulp-Notify
+
+Because this system uses gulp notify, there is a toggle to turn it on or off (default is off). If you would like to use this feature you must install an app that works with gulp-notify.
+
+Mac OS X: No external installation needed (if Mac OS X 10.8 or higher).
+Linux: Notify-send should be installed (On Ubuntu this is installed per default)
+Windows: [Growl for Windows](http://www.growlforwindows.com/gfw/default.aspx) should be installed.
+
+just change
+
+```sh
+growl = false;
+```
+
+to
+
+```sh
+growl = true;
+```
 
 ### Development
 
