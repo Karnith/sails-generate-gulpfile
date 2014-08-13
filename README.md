@@ -1,7 +1,7 @@
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
-
 # sails-generate-gulpfile
-
+-----------------------------------------------
+[![NPM version][npm-version-image]][npm-url] [![NPM downloads][npm-downloads-image]][npm-url] [![Dependency Status][dependency-image]][dependency-url] [![MIT License][license-image]][license-url]
 
 A `gulpfile` generator for use with the Sails command-line interface that works with gulp and sails lift.
 
@@ -98,3 +98,15 @@ See `FAQ.md`.
 
 [Sails](http://sailsjs.org) is free and open-source under the [MIT License](http://sails.mit-license.org/).
 
+[license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license-url]: LICENSE
+
+[npm-url]: https://npmjs.org/package/sails-generate-bower-gulp
+[npm-version-image]: http://img.shields.io/npm/v/sails-generate-bower-gulp.svg?style=flat
+[npm-downloads-image]: http://img.shields.io/npm/dm/sails-generate-bower-gulp.svg?style=flat
+
+[dependency-image]: https://gemnasium.com/Karnith/sails-generate-bower-gulp.svg?style=flat
+[dependency-url]: https://gemnasium.com/Karnith/sails-generate-bower-gulp
+
+[coverage-image]: http://img.shields.io/coveralls/Karnith/sails-generate-bower-gulp/master.svg?style=flat
+[coverage-url]: https://coveralls.io/r/Karnith/sails-generate-bower-gulp?branch=master
