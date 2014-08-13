@@ -17,7 +17,8 @@ var gulp = require('gulp'),
 						replaceString: /.*-/, // what to remove from the name of the module when adding it to the context
 						lazy: true, // whether the plugins should be lazy loaded on demand
 					}),
-	path = require('path');
+	path = require('path'),
+	growl = false;
 
 //module.exports = function(gulp) {
 
@@ -64,7 +65,7 @@ var gulp = require('gulp'),
 	function invokeConfigFn(tasks) {
 		for (var taskName in tasks) {
 			if (tasks.hasOwnProperty(taskName)) {
-				tasks[taskName](gulp, plugins, path);
+				tasks[taskName](gulp, plugins, growl, path);
 			}
 		}
 	}
@@ -78,7 +79,7 @@ var gulp = require('gulp'),
 
 	// (ensure that a default task exists)
 	if (!registerDefinitions.default) {
-		registerDefinitions.default = function (grunt) { grunt.task('default', []); };
+		registerDefinitions.default = function (gulp) { gulp.task('default', []); };
 	}
 
 	// Run task functions to configure Gulp.
