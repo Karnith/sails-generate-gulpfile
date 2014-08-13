@@ -101,12 +101,12 @@ See `FAQ.md`.
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]: LICENSE
 
-[npm-url]: https://npmjs.org/package/sails-generate-bower-gulp
-[npm-version-image]: http://img.shields.io/npm/v/sails-generate-bower-gulp.svg?style=flat
-[npm-downloads-image]: http://img.shields.io/npm/dm/sails-generate-bower-gulp.svg?style=flat
+[npm-url]: https://npmjs.org/package/sails-generate-gulpfile
+[npm-version-image]: http://img.shields.io/npm/v/sails-generate-gulpfile.svg?style=flat
+[npm-downloads-image]: http://img.shields.io/npm/dm/sails-generate-gulpfile.svg?style=flat
 
-[dependency-image]: https://gemnasium.com/Karnith/sails-generate-bower-gulp.svg?style=flat
-[dependency-url]: https://gemnasium.com/Karnith/sails-generate-bower-gulp
+[dependency-image]: https://gemnasium.com/Karnith/sails-generate-gulpfile.svg?style=flat
+[dependency-url]: https://gemnasium.com/Karnith/sails-generate-gulpfile
 
-[coverage-image]: http://img.shields.io/coveralls/Karnith/sails-generate-bower-gulp/master.svg?style=flat
-[coverage-url]: https://coveralls.io/r/Karnith/sails-generate-bower-gulp?branch=master
+[coverage-image]: http://img.shields.io/coveralls/Karnith/sails-generate-gulpfile/master.svg?style=flat
+[coverage-url]: https://coveralls.io/r/Karnith/sails-generate-gulpfile?branch=master
