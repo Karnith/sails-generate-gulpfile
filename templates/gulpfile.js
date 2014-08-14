@@ -13,7 +13,7 @@
  */
 var gulp = require('gulp'),
 	plugins = require('gulp-load-plugins')({
-						pattern: ['gulp-*', 'merge-*', 'run-*'], // the glob to search for
+						pattern: ['gulp-*', 'merge-*', 'run-*', 'main-*'], // the glob to search for
 						replaceString: /.*-/, // what to remove from the name of the module when adding it to the context
 						lazy: true, // whether the plugins should be lazy loaded on demand
 					}),
