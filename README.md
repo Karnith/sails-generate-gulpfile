@@ -70,9 +70,9 @@ plugins = require('gulp-load-plugins')({
 					}),
 ```
 
-If you would like to add more gulp modules for creating tasks, install the module and add the begining name of the module to the plugins variable above like ```sh jump-* ```. This will then lazy autoload all modules that have the prefix jump- in the name.
+If you would like to add more gulp modules for creating tasks, install the module and add the begining name of the module to the plugins variable above like ``` jump-* ```. This will then lazy autoload all modules that have the prefix jump- in the name.
 
-The plugin can then be called in task with ```sh plugins.<suffix of module name>```, so gulp-bower becomes plugins.bower and main-gulp-files becomes plugins.files. 
+The plugin can then be called in task with ``` plugins.<suffix of module name>```, so gulp-bower becomes plugins.bower and main-gulp-files becomes plugins.files. 
 
 See [gulp-load-plugins](https://github.com/jackfranklin/gulp-load-plugins) for more options on naming autoloaded plugins
 
