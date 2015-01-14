@@ -1,6 +1,8 @@
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
 # sails-generate-gulpfile
 -----------------------------------------------
+
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Karnith/sails-generate-gulpfile?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![NPM version][npm-version-image]][npm-url] [![NPM downloads][npm-downloads-image]][npm-url] [![Dependency Status][dependency-image]][dependency-url] [![MIT License][license-image]][license-url]
 
 A `gulpfile` generator for use with the Sails command-line interface that works with gulp and sails lift.
