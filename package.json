@@ -21,7 +21,7 @@
     "merge-defaults": "*"
   },
   "devDependencies": {
-    "sails-generate": "*",
+    "sails-generate": "Karnith/sails-generate",
     "reportback": "*",
     "fs-extra": "*"
   },
