@@ -1,5 +1,6 @@
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
 # sails-generate-gulpfile
+# Depreciated.. use [machinepack-sailsgulpify](https://github.com/Karnith/machinepack-sailsgulpify)
 -----------------------------------------------
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Karnith/sails-generate-gulpfile?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
